@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-seu",
+  "version": "0.1.0",
+  "description": "eslitn rules for seu projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwsun/eslint-config-seu.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "wwsun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwsun/eslint-config-seu/issues"
+  },
+  "homepage": "https://github.com/wwsun/eslint-config-seu#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
