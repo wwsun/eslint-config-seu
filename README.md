@@ -1,5 +1,7 @@
 # eslint-config-seu
 
+[![NPM version][npm-image]][npm-url]
+
 eslint rules for react projects
 
 ```bash
@@ -15,3 +17,19 @@ create `.eslintrc` in root
     ]
 }
 ```
+
+ignore eslint files by add 'eslintIgnore' options in your project's 'package.json':
+
+```json
+// package.json
+{
+    "eslintIgnore": [
+        "dist/",
+        "webpack.config.js"
+    ]
+}
+```
+
+
+[npm-image]: https://badge.fury.io/js/eslint-config-seu.svg
+[npm-url]: https://npmjs.org/package/eslint-config-seu
